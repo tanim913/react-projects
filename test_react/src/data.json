@@ -1,0 +1,143 @@
+[
+    {
+      "CountryName": "Bangladesh",
+      "Capital": "Dhaka",
+      "Currency": "BDT",
+      "Population": "40M",
+      "Language": "Bengali"
+    },
+    {
+      "CountryName": "USA",
+      "Capital": "Washington, D.C.",
+      "Currency": "USD",
+      "Population": "331M",
+      "Language": "English"
+    },
+    {
+      "CountryName": "Japan",
+      "Capital": "Tokyo",
+      "Currency": "JPY",
+      "Population": "126M",
+      "Language": "Japanese"
+    },
+    {
+      "CountryName": "Germany",
+      "Capital": "Berlin",
+      "Currency": "EUR",
+      "Population": "83M",
+      "Language": "German"
+    },
+    {
+      "CountryName": "France",
+      "Capital": "Paris",
+      "Currency": "EUR",
+      "Population": "67M",
+      "Language": "French"
+    },
+    {
+      "CountryName": "India",
+      "Capital": "New Delhi",
+      "Currency": "INR",
+      "Population": "1.38B",
+      "Language": "Hindi"
+    },
+    {
+      "CountryName": "Brazil",
+      "Capital": "Brasília",
+      "Currency": "BRL",
+      "Population": "213M",
+      "Language": "Portuguese"
+    },
+    {
+      "CountryName": "Canada",
+      "Capital": "Ottawa",
+      "Currency": "CAD",
+      "Population": "38M",
+      "Language": "English, French"
+    },
+    {
+      "CountryName": "Australia",
+      "Capital": "Canberra",
+      "Currency": "AUD",
+      "Population": "25M",
+      "Language": "English"
+    },
+    {
+      "CountryName": "China",
+      "Capital": "Beijing",
+      "Currency": "CNY",
+      "Population": "1.4B",
+      "Language": "Mandarin"
+    },
+    {
+      "CountryName": "Russia",
+      "Capital": "Moscow",
+      "Currency": "RUB",
+      "Population": "146M",
+      "Language": "Russian"
+    },
+    {
+      "CountryName": "South Korea",
+      "Capital": "Seoul",
+      "Currency": "KRW",
+      "Population": "52M",
+      "Language": "Korean"
+    },
+    {
+      "CountryName": "Italy",
+      "Capital": "Rome",
+      "Currency": "EUR",
+      "Population": "60M",
+      "Language": "Italian"
+    },
+    {
+      "CountryName": "United Kingdom",
+      "Capital": "London",
+      "Currency": "GBP",
+      "Population": "68M",
+      "Language": "English"
+    },
+    {
+      "CountryName": "Mexico",
+      "Capital": "Mexico City",
+      "Currency": "MXN",
+      "Population": "128M",
+      "Language": "Spanish"
+    },
+    {
+      "CountryName": "South Africa",
+      "Capital": "Pretoria",
+      "Currency": "ZAR",
+      "Population": "59M",
+      "Language": "11 official languages"
+    },
+    {
+      "CountryName": "Turkey",
+      "Capital": "Ankara",
+      "Currency": "TRY",
+      "Population": "82M",
+      "Language": "Turkish"
+    },
+    {
+      "CountryName": "Saudi Arabia",
+      "Capital": "Riyadh",
+      "Currency": "SAR",
+      "Population": "35M",
+      "Language": "Arabic"
+    },
+    {
+      "CountryName": "Argentina",
+      "Capital": "Buenos Aires",
+      "Currency": "ARS",
+      "Population": "45M",
+      "Language": "Spanish"
+    },
+    {
+      "CountryName": "Egypt",
+      "Capital": "Cairo",
+      "Currency": "EGP",
+      "Population": "104M",
+      "Language": "Arabic"
+    }
+  ]
+  
