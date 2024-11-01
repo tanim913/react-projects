@@ -1,14 +1,17 @@
 
 import './App.css'
 import Card from './components/Card.jsx'
+import NestedCard from './components/NestedCard.jsx'
 import CountryData from './data.json'
+import UserData from './user_data.json'
+import { v4 as uuidv4} from "uuid";
 
 function App() {
   return (
     <>
-      {CountryData.map((item, index) => (
+      {CountryData.map((item) => (
         <Card
-          key={index}
+          key={uuidv4()}
           CountryName={item.CountryName}
           capital={item.Capital}
           currency={item.Currency}
@@ -16,6 +19,17 @@ function App() {
           language={item.Language}
         />
       ))}
+      
+      <div className="nested-card-container">
+        {UserData.map((user, index) => (
+          <NestedCard
+            key={index}
+            fullname={user.fullname}
+            age={user.age}
+            phones={user.phones}
+          />
+        ))}
+      </div>
     </>
   )
 }

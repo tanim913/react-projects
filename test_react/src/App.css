@@ -7,7 +7,15 @@
   gap: 1rem;
 }
 
-.country-card {
+.card-container, .nested-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.country-card, .user-card {
   background-color: #333;
   border: 1px solid #444;
   border-radius: 8px;
@@ -17,20 +25,46 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
   max-width: calc(33.333% - 2rem);
+  box-sizing: border-box;
 }
 
-.country-card:hover {
+.country-card:hover, .user-card:hover {
   transform: translateY(-5px);
 }
 
-.country-card h2 {
+.country-card h2, .user-card h2 {
   margin-top: 0;
   font-size: 1.5em;
   color: #61dafb;
 }
 
-.country-card p {
+.country-card p, .user-card p {
   margin: 0.5em 0;
   font-size: 1em;
   color: rgba(255, 255, 255, 0.87);
+}
+
+.user-card p {
+  color: #ffffff;
+}
+
+.user-card strong {
+  color: #00fff2;
+}
+
+@media (max-width: 768px) {
+  .country-card, .user-card {
+    flex: 1 1 calc(50% - 2rem);
+    max-width: calc(50% - 2rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .country-card, .user-card {
+    flex: 1 1 calc(100% - 2rem);
+    max-width: calc(100% - 2rem);
+  }
+}
+.tab-space{
+  text-indent: 2em;
 }

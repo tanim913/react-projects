@@ -1,0 +1,83 @@
+[
+    {
+      "fullname": "Oscar Yellow",
+      "age": "32",
+      "phones": [
+        {"home": "5451324231"},
+        {"office": "545489745"}
+      ]
+    },
+    {
+      "fullname": "Karen Gray",
+      "age": "28",
+      "phones": [
+        {"home": "5457861234"},
+        {"office": "545989678"}
+      ]
+    },
+    {
+      "fullname": "Leo Blue",
+      "age": "35",
+      "phones": [
+        {"home": "5459876543"},
+        {"office": "545123678"}
+      ]
+    },
+    {
+      "fullname": "Mona Red",
+      "age": "27",
+      "phones": [
+        {"home": "5454567890"},
+        {"office": "545789234"}
+      ]
+    },
+    {
+      "fullname": "Nina Orange",
+      "age": "30",
+      "phones": [
+        {"home": "5452345678"},
+        {"office": "545123789"}
+      ]
+    },
+    {
+      "fullname": "Paul Green",
+      "age": "40",
+      "phones": [
+        {"home": "5453456789"},
+        {"office": "545987123"}
+      ]
+    },
+    {
+      "fullname": "Quinn Violet",
+      "age": "29",
+      "phones": [
+        {"home": "5454561234"},
+        {"office": "545789678"}
+      ]
+    },
+    {
+      "fullname": "Ryan Blue",
+      "age": "33",
+      "phones": [
+        {"home": "5455672345"},
+        {"office": "545123456"}
+      ]
+    },
+    {
+      "fullname": "Sara White",
+      "age": "31",
+      "phones": [
+        {"home": "5456783456"},
+        {"office": "545678123"}
+      ]
+    },
+    {
+      "fullname": "Tom Black",
+      "age": "36",
+      "phones": [
+        {"home": "5457894567"},
+        {"office": "545456789"}
+      ]
+    }
+  ]
+  
