@@ -1,5 +1,6 @@
 
-
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMdPhonePortrait } from "react-icons/io";
 function NestedCard(props) {
     const { fullname, age, phones } = props;
     return (
@@ -10,8 +11,10 @@ function NestedCard(props) {
                 <p><strong>Phones</strong></p>
                 {phones.map((phone, index) => (
                     <div key={index}>
-                        {phone.home && <p className="tab-space"><strong>Home:</strong> {phone.home}</p>}
-                        {phone.office && <p className="tab-space"><strong>Office:</strong> {phone.office}</p>}
+                        
+                        {phone.home && <p className="tab-space"><strong><FaPhoneAlt /> </strong>  {phone.home}</p>}
+                        
+                        {phone.office && <p className="tab-space"><strong><IoMdPhonePortrait /></strong> {phone.office}</p>}
                     </div>
                 ))}
             </div>

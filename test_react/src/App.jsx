@@ -1,6 +1,7 @@
 
 import './App.css'
 import Card from './components/Card.jsx'
+import ClassCard from './components/ClassCard.jsx'
 import NestedCard from './components/NestedCard.jsx'
 import CountryData from './data.json'
 import UserData from './user_data.json'
@@ -30,6 +31,9 @@ function App() {
           />
         ))}
       </div>
+
+      {/* Class component */}
+      <ClassCard name="Class component passing props" />
     </>
   )
 }
