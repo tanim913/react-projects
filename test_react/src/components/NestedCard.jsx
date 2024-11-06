@@ -11,9 +11,7 @@ function NestedCard(props) {
                 <p><strong>Phones</strong></p>
                 {phones.map((phone, index) => (
                     <div key={index}>
-                        
                         {phone.home && <p className="tab-space"><strong><FaPhoneAlt /> </strong>  {phone.home}</p>}
-                        
                         {phone.office && <p className="tab-space"><strong><IoMdPhonePortrait /></strong> {phone.office}</p>}
                     </div>
                 ))}
