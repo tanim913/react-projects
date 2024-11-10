@@ -3,8 +3,8 @@
     padding: 2rem;
 
     .buttons-container {
-        display: flex;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
         gap: 1rem;
         margin-top: 2rem;
     }

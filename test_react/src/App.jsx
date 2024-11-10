@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import BootstrapCard from './components/BootstrapCard.jsx';
 import StateSetState from './components/StateSetState.jsx'
 import Card from './components/Card.jsx';
+import Conditional_Rendering from './components/Conditional_Rendering/index.jsx';
 import ClassCard from './components/ClassCard.jsx';
 import NestedCard from './components/NestedCard.jsx';
 import CountryData from './data.json';
@@ -31,7 +32,9 @@ function Home() {
         <Link to="/state-setstate">
           <button className='btn-home'>State and SetState</button>
         </Link>
-        
+        <Link to="/conditional_rendering">
+          <button className='btn-home'>Conditional Rendering</button>
+        </Link>
       </div>
     </div>
   );
@@ -79,6 +82,7 @@ function App() {
         <Route path="/class-card" element={<ClassCard name="Class component passing props" />} />
         <Route path="/bootstrap-card" element={<BootstrapCard />} />
         <Route path="/state-setstate" element={<StateSetState />} />
+        <Route path="/conditional_rendering" element={<Conditional_Rendering />} />
       </Routes>
     </Router>
   );
